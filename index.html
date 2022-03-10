@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta charset="UTF-8">
+		<title>Happy Birthday! </title>
+		<link rel="stylesheet" type="text/css" href="./css/format.css">
+	</head>
+
+	<body style="margin:0px">
+		<audio autoplay loop>
+			<source src="music/music.mp3" type="audio/mpeg">
+			Your browser does not support the audio.
+		</audio>
+		<canvas></canvas>
+		<div id="imgTxt">
+			<span id="Txt"></span> <br />
+			<span id="tmp"></span>
+			<img id="img" src="">
+		</div>
+		<div id="heartTxt">
+			<span id="clickMe">Click!</span>
+			<div id="heart">
+				<button id="button" onclick="play()"></button>
+			</div>
+		</div>
+		<div id="content">
+			<h2 id="together">We know each other since childhood, But the new begining was in Kolkatta.  </h2>
+			
+			<div id="timer">
+				<b id="d"></b> Days 
+				<b id="h"></b> Hours
+				<b id="m"></b> Minutes
+				<b id="s"></b> Seconds
+			</div>
+		</div>
+
+    	<div id = "typeDiv">
+        	<span id="txt1"></span> <br />
+        	<span id="txt2"></span>
+    	</div>		
+
+		<script >
+			var ok = 0;
+			var flag = 1;
+			var myImage = document.getElementById("img");
+			var myTxt = document.getElementById("Txt");
+
+		
+			
+		
+
+
+
+			var imageArray = ["pic/1.jpg", "pic/2.jpg", "pic/3.jpg", "pic/4.jpg", "pic/5.jpg", "pic/6.jpg", 
+			"pic/7.jpg", "pic/8.jpg", "pic/9.jpg", "pic/10.jpg","pic/10a.jpg", "pic/11.jpg", "pic/12.jpg", "pic/13.jpg",
+			"pic/14.jpg", "pic/15.jpg", "pic/16.jpg","pic/17.jpg", "pic/18.jpg", "pic/19.jpg", "pic/20.jpg", "pic/21.jpg", "pic/22.jpg", 
+			"pic/23.jpg", "pic/24.jpg", "pic/25.jpg", "pic/26.jpg", "pic/27.jpg", "pic/28.jpg", "pic/29.jpg",
+			"pic/30.jpg", "pic/31.jpg", "pic/32.jpg", "pic/33.jpg", "pic/34.jpg", "pic/35.jpg", "pic/36.jpg", "pic/37.jpg"];
+
+
+
+
+
+			var imageIndex = 0;
+			var txtArray = ["Last birthday ka churaya hua",
+			 "Tumhara shakal lol",
+			 "memories",
+			 "hum jaise innocent ko kya malum tha ki bus chutne wala hai",
+			 "kaisa lga tha college?",
+			 "kuch rare group photo",
+			 "aab dekho ladki ka phtoshoot start",
+			 "ek auur",
+			 "ye ligiye ek auur",
+			 "aab professional photoshoot",
+			 "aab bss kro ree",
+			 "tb painnting pura krke kab bhej rhi ?",
+			 "ye ladki sach m shivani hai ?",
+			 "kitni cute lag rhi ho yrrrr",
+			 "finally humne ek pic khichwa liya tha",
+			 "shreekeathers ki shopping",
+			 "rangoli banane ka talent to hai tumme... waah",
+			 "kya lgta hai iss time kya chalta tha humlog ke dimag m?",
+			 "pizza dekhte hi kitna khus ho jati ho re",
+			 "OMG! photoshoot ka ye part kasie miss ho gya tha",
+			 "If bhand hokrr party m jana has a face",
+			 "ye pic insta m daalne ka mn krr rha hai... permission dogi?",
+			 "yhi shakl dekh krr 2 min m tayyar ho krr nikal gya tha ",
+			 "daru pine m mja aata hai naa?",
+			 "computer banwana is a perfect bahana",
+			 "aaagggaaaaiiiiinnnnn ppphhhoooottttooooossshhhhoooottttt!!!!!",
+			 "iss baar yrr pahad nhi chadhe the chadna tha naa ",
+			 "pose to dekho ladki ke",
+			 "WE ARE AWESOME!",
+			 "garmi m dopahar ko trek karne nikle the ",
+			 "partyyyy",
+			 "one of the most adventerous day",
+			 "With family",
+			 "new year partyy",
+			 "kya soch rhi itna thinking mode m ",
+			 "aaisehi khelna holi iss saal bhi",
+			 "Brand Ambassdor banne ke liye apply krr sakti ho ",
+			 "pal kaisa pak, pal m jaye phisal, chah ke bhi pakad paun naa"];
+			 var len = imageArray.length;
+			var t = 0;
+		</script>
+		
+		<script type="text/javascript" src="./js/stars.js"></script>
+		<script type="text/javascript" src="./js/typeWriter.js"></script>
+		<script type="text/javascript" src="./js/date.js"></script>
+		<script type="text/javascript" src="./js/playImg.js"></script>
+	</body>
+</html>
